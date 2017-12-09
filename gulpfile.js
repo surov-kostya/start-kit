@@ -70,9 +70,9 @@ gulp.task('webpack', function() {
 // --------------- WATCH ------------------
 
 gulp.task('watch', function () {
- gulp.watch('./src/styles/**/*.scss', ['sass']);
- gulp.watch('./src/templates/**/*.pug', ['pug']);
- gulp.watch('./src/img/**/*.{png,jpg,jpeg}', ['tinypng']);
- gulp.watch('./src/scripts/**/*.js', ['webpack']);
+ gulp.watch('./src/styles/**/*.scss', gulp.series('sass'));
+ gulp.watch('./src/templates/**/*.pug', gulp.series('pug'));
+ gulp.watch('./src/img/**/*.{png,jpg,jpeg}', gulp.series('tinypng'));
+ gulp.watch('./src/scripts/**/*.js', gulp.series('webpack'));
 });
 
