@@ -46,13 +46,13 @@ gulp.task('pug', function buildHTML() {
 var tinypng = require('gulp-tinypng-compress');
 
 gulp.task('tinypng', function () {
-	gulp.src('./src/img/**/*.{png,jpg,jpeg}')
+	gulp.src('./src/images/**/*.{png,jpg,jpeg}')
 		.pipe(tinypng({
 			key: 'l24fUOu4hXFd9vBdrobEB8nfVjpyHHpm',
 			sigFile: 'images/.tinypng-sigs',
 			log: true
 		}))
-		.pipe(gulp.dest('./build/img/'));
+		.pipe(gulp.dest('./build/assets/images'));
 });
 
 // -------------- WEBPACK -----------------
@@ -72,7 +72,7 @@ gulp.task('webpack', function() {
 gulp.task('watch', function () {
  gulp.watch('./src/styles/**/*.scss', gulp.series('sass'));
  gulp.watch('./src/templates/**/*.pug', gulp.series('pug'));
- gulp.watch('./src/img/**/*.{png,jpg,jpeg}', gulp.series('tinypng'));
+ gulp.watch('./src/images/**/*.{png,jpg,jpeg}', gulp.series('tinypng'));
  gulp.watch('./src/scripts/**/*.js', gulp.series('webpack'));
 });
 
