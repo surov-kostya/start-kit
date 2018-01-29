@@ -1,0 +1,52 @@
+@mixin font-h1{
+    text-transform: uppercase;
+    font-family: 'bernier_regular';
+    text-transform: uppercase;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 63px;
+    color:$color-gray-dark;
+    position: relative;
+}
+
+@mixin font-h2{
+    text-transform: uppercase;
+    font-family: 'bernier_regular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 35px;
+    color:$color-gray;
+}
+
+@mixin font-reg{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:rgba($color-gray, .8);
+}
+
+@mixin bg-image ($img-url){
+    background-image: url($img-url);
+    background-position: center top;
+    background-size: cover;
+}
+
+@mixin dis-fle-cen{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin dis-fle-col-around{
+    display:flex;
+    flex-flow:column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@mixin abs-center{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+}

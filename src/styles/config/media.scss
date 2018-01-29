@@ -1,0 +1,53 @@
+@mixin tv {
+    @media screen and (min-width: $tv){
+        @content;
+    }
+}
+
+@mixin b-desktop{
+    @media screen and (max-width: $b-desktop){
+        @content;
+    }
+}
+
+@mixin desktop{
+    @media screen and (max-width: $desktop){
+        @content;
+    }
+}
+
+@mixin a-desktop{
+    @media screen and (max-width: $a-desktop){
+        @content;
+    }
+}
+
+@mixin b-tablets {
+    @media screen and (max-width: $b-tablets){
+        @content;
+    }
+}
+
+@mixin tablets {
+    @media screen and (max-width: $tablets){
+        @content;
+    }
+}
+
+@mixin b-phones {
+    @media screen and (max-width: $b-phones){
+        @content;
+    }
+}
+
+@mixin phones {
+    @media screen and (max-width: $phones){
+        @content;
+    }
+}
+
+@mixin iphone {
+    @media screen and (max-width: $iphone){
+        @content;
+    }
+}

@@ -10,16 +10,21 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
     "gulp": "github:gulpjs/gulp#4.0",
     "gulp-autoprefixer": "^4.0.0",
+    "gulp-cheerio": "^0.6.2",
+    "gulp-plumber": "^1.1.0",
     "gulp-pug": "^3.3.0",
     "gulp-px2rem": "^1.0.11",
     "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-svg-sprites": "^4.1.2",
     "gulp-tinypng-compress": "^1.2.1",
     "gulp-webpack": "^1.5.0",
     "uglifyjs-webpack-plugin": "^1.1.2",
     "webpack": "^3.10.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }

@@ -1,22 +1,15 @@
 # Школа Loftschool
 ## Курс "ПРОДВИНУТЫЙ ВЕБ"
-### ДЗ 1. Сборка Gulp + Webpack.
+### ДЗ 1. Начало верстки. Выполнено.
+### ДЗ 2. Вёрстка 4х страниц. Выполнено.
+### ДЗ 3. Адаптивная вёрстка. Анимации. Выполнено.
+### ДЗ 4. Базовый JavaScript. Часть 1. Выполнено.
 
 **Студент**: Суров Константин
 
 **Наставник**: Александр Собакарь
 
-**Ссылка на репозиторий**: https://github.com/surov-kostya/start-kit
+**Ссылка на репозиторий**: https://github.com/surov-kostya/mountains-src.git
 
-**Установка**: $npm install
+**Ссылка на сайт**:  https://surov-kostya.github.io/mountains/
 
-**Используемые технолгогии**:
-    "gulp": "github:gulpjs/gulp#4.0",
-    "gulp-autoprefixer": "^4.0.0",
-    "gulp-pug": "^3.3.0",
-    "gulp-px2rem": "^1.0.11",
-    "gulp-sass": "^3.1.0",
-    "gulp-tinypng-compress": "^1.2.1",
-    "gulp-webpack": "^1.5.0",
-    "uglifyjs-webpack-plugin": "^1.1.2",
-    "webpack": "^3.10.0"
