@@ -95,7 +95,7 @@ var gulpWebpack = require('gulp-webpack');
 var webpackConfig = require('./webpack.config.js');
 
 gulp.task('webpack', function() {
-  return gulp.src('src/scripts/profile.js')
+  return gulp.src('src/scripts/main.js')
     .pipe(gulpWebpack(webpackConfig, webpack))
     .pipe(gulp.dest('build/assets/scripts'));
 });

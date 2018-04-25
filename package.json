@@ -1,15 +1,18 @@
 {
   "name": "start-kit",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "**Студент**: Суров Константин",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "q05t9n",
   "license": "ISC",
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
     "browser-sync": "^2.18.13",
     "del": "^3.0.0",
     "gulp": "github:gulpjs/gulp#4.0",
@@ -24,7 +27,15 @@
     "gulp-tinypng-compress": "^1.2.1",
     "gulp-webpack": "^1.5.0",
     "uglifyjs-webpack-plugin": "^1.1.2",
-    "webpack": "^3.10.0"
+    "webpack": "^3.11.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surov-kostya/start-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/surov-kostya/start-kit/issues"
+  },
+  "homepage": "https://github.com/surov-kostya/start-kit#readme"
 }
